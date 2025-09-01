@@ -31,6 +31,10 @@ The stack includes:
 
 ```
 .
+│
+├── docs/
+│   └── images/
+│       └── grafana_painel.png
 ├── app/                # Spring Boot application (API)
 │   ├── Dockerfile
 │   └── ...
@@ -96,6 +100,13 @@ You can create dashboards to monitor:
 * Request counts and latency
 * Database metrics (via Actuator)
 * Custom business metrics (if exposed)
+
+Prometheus scrapes these metrics and Grafana visualizes them.
+
+### Grafana Dashboard
+Here is an example of the metrics you can monitor in Grafana:
+
+![Grafana Metrics Dashboard](./app/docs/images/grafana_painel.png)
 
 ---
 
