@@ -1,0 +1,74 @@
+# ======================
+# Java / Spring Boot
+# ======================
+/target/
+/build/
+/out/
+/.gradle/
+/mvnw
+mvnw.cmd
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ======================
+# Node.js (Client)
+# ======================
+/client/node_modules/
+/client/dist/
+/client/build/
+/client/.cache
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# ======================
+# Environment & Secrets
+# ======================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# ======================
+# Docker
+# ======================
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+docker-data/
+*.pid
+*.sock
+
+# ======================
+# Database & Redis dumps
+# ======================
+/mysql/*.sql
+/mysql/*.dump
+/mysql/*.log
+redis_data/
+*.rdb
+
+# ======================
+# Prometheus & Grafana
+# ======================
+/prometheus/prometheus_data/
+/grafana/
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+spring.log
+
+# ======================
+# OS / IDE files
+# ======================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
